@@ -1,0 +1,10 @@
+numpy
+scipy
+scikit-learn
+matplotlib
+pandas
+Pillow
+graphviz
+imageio
+joblib
+cycler

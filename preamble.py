@@ -1,11 +1,14 @@
-from IPython.display import set_matplotlib_formats, display
+from IPython.display import display
+import matplotlib_inline.backend_inline
+matplotlib_inline.backend_inline.set_matplotlib_formats('svg', 'pdf')
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import mglearn
 from cycler import cycler
 
-set_matplotlib_formats('pdf', 'png')
+# set_matplotlib_formats('pdf', 'png')
 plt.rcParams['savefig.dpi'] = 300
 plt.rcParams['image.cmap'] = "viridis"
 plt.rcParams['image.interpolation'] = "none"
